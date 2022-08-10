@@ -70,7 +70,8 @@ function countBy(x, n) {
   }
   
   return z;
-}
+};
+console.log(countBy(10,5))
 
 
 // DESCRIPTION:
@@ -88,3 +89,4 @@ function positiveSum(arr) {
   }
   return count
 }
+console.log(positiveSum([1, -4, 7, 12]))
